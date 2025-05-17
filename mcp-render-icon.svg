@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景圆形 -->
+    <circle cx="100" cy="100" r="90" fill="url(#gradient-bg)" />
+    
+    <!-- 中心六边形 -->
+    <path d="M100 30L160 70V130L100 170L40 130V70L100 30Z" fill="url(#gradient-hex)" />
+    
+    <!-- 动态线条 -->
+    <path d="M60 100L100 60L140 100L100 140L60 100Z" stroke="white" stroke-width="4" fill="none" />
+    <circle cx="100" cy="100" r="20" stroke="white" stroke-width="4" fill="none" />
+    
+    <!-- 连接点 -->
+    <circle cx="100" cy="60" r="6" fill="white" />
+    <circle cx="140" cy="100" r="6" fill="white" />
+    <circle cx="100" cy="140" r="6" fill="white" />
+    <circle cx="60" cy="100" r="6" fill="white" />
+    
+    <!-- 渐变定义 -->
+    <defs>
+        <linearGradient id="gradient-bg" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#2B32B2" />
+            <stop offset="100%" stop-color="#1488CC" />
+        </linearGradient>
+        <linearGradient id="gradient-hex" x1="40" y1="30" x2="160" y2="170" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#4A00E0" />
+            <stop offset="100%" stop-color="#8E2DE2" />
+        </linearGradient>
+    </defs>
+</svg> 
