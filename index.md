@@ -15,7 +15,7 @@ hero:
       link: /guide/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/your-repo
+      link: https://github.com/orgs/McpSynergy/repositories
 
 
 features:

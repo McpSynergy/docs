@@ -12,6 +12,10 @@ export default defineConfig({
   title: 'MCP Render',
   description: 'A powerful UI rendering solution for AI chat interfaces',
 
+  rewrites: {
+    'en/:rest*': ':rest*'
+  },
+
   locales: {
     root: { label: 'English', ...en },
     zh: { label: '简体中文', ...zh }
@@ -25,7 +29,7 @@ export default defineConfig({
     ['meta', { property: 'og:locale', content: 'en' }],
     ['meta', { property: 'og:title', content: 'MCP Render | A powerful UI rendering solution for AI chat interfaces' }],
     ['meta', { property: 'og:site_name', content: 'MCP Render' }],
-    ['meta', { property: 'og:url', content: 'https://your-domain.com/mcp-render/' }],
+    ['meta', { property: 'og:url', content: 'https://github.com/orgs/McpSynergy' }],
     ['meta', { name: 'description', content: 'A powerful UI rendering solution for AI chat interfaces' }],
     ['meta', { name: 'keywords', content: 'MCP Render, AI, UI, chat interface, rendering' }],
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }]
@@ -81,7 +85,7 @@ export default defineConfig({
 
   themeConfig: {
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-repo' }
+      { icon: 'github', link: 'https://github.com/orgs/McpSynergy/repositories' }
     ]
   },
   vite: {

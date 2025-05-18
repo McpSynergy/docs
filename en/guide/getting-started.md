@@ -115,5 +115,5 @@ export default defineConfig({
 ## Next Steps
 
 - Learn about [Configuration](/en/guide/configuration)
-- Explore [API Reference](/en/api/)
-- Check out [Examples](/en/examples/) 
+<!-- - Explore [API Reference](/en/api/)
+- Check out [Examples](/en/examples/)  -->

@@ -115,5 +115,5 @@ export default defineConfig({
 ## 下一步
 
 - 了解[配置](/zh/guide/configuration)
-- 探索[API 参考](/zh/api/)
-- 查看[示例](/zh/examples/) 
+<!-- - 探索[API 参考](/zh/api/)
+- 查看[示例](/zh/examples/)  -->
