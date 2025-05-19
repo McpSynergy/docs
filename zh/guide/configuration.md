@@ -17,28 +17,6 @@ interface ChatComponentProps {
 
 ### 使用示例
 
-```typescript
-<ChatComponent
-  name="Cart"
-  props={{
-    books: [
-      {
-        id: "1",
-        title: "书籍 1",
-        author: "作者 1",
-        cover: "cover1.jpg",
-        price: 29.99,
-        count: 1
-      }
-    ],
-    handleGoBack: () => console.log("返回"),
-    onRemove: (id) => console.log("删除", id)
-  }}
-  fallback={<div>加载购物车中...</div>}
-  errorFallback={<div>加载购物车出错</div>}
-/>
-```
-
 ## 后端配置
 
 ### MCP Host 配置
