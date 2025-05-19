@@ -11,7 +11,7 @@ import {
 export default defineConfig({
   title: 'MCP Render',
   description: 'A powerful UI rendering solution for AI chat interfaces',
-  base: process.env.NODE_ENV === 'production' ? '/docs/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/docs/' : '',
   rewrites: {
     'en/:rest*': ':rest*'
   },
