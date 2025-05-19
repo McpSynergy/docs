@@ -30,7 +30,7 @@ pnpm add @mcp-synergy/react
 
 ## Usage
 
-```tsx
+```typescript
 import { ChatComponent } from "@mcp-synergy/react"
 
 function App() {
@@ -59,7 +59,7 @@ function App() {
 
 ## 使用
 
-```tsx
+```typescript
 import { ChatComponent } from "@mcp-synergy/react"
 
 function App() {
