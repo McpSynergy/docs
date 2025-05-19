@@ -17,27 +17,6 @@ interface ChatComponentProps {
 
 ### Example Usage
 
-```typescript
-<ChatComponent
-  name="Cart"
-  props={{
-    books: [
-      {
-        id: "1",
-        title: "Book 1",
-        author: "Author 1",
-        cover: "cover1.jpg",
-        price: 29.99,
-        count: 1
-      }
-    ],
-    handleGoBack: () => console.log("Go back"),
-    onRemove: (id) => console.log("Remove", id)
-  }}
-  fallback={<div>Loading cart...</div>}
-  errorFallback={<div>Error loading cart</div>}
-/>
-```
 
 ## Backend Configuration
 

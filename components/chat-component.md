@@ -33,28 +33,6 @@ pnpm add @mcp-synergy/react
 ```typescript
 import { ChatComponent } from "@mcp-synergy/react"
 
-function App() {
-  return (
-    <ChatComponent
-      name="Cart"
-      props={{
-        books: [
-          {
-            id: "1",
-            title: "Book 1",
-            author: "Author 1",
-            cover: "cover1.jpg",
-            price: 29.99,
-            count: 1
-          }
-        ],
-        handleGoBack: () => console.log("Go back"),
-        onRemove: (id) => console.log("Remove", id)
-      }}
-      fallback={<div>Loading...</div>}
-    />
-  )
-}
 ```
 
 ## 使用
@@ -62,28 +40,6 @@ function App() {
 ```typescript
 import { ChatComponent } from "@mcp-synergy/react"
 
-function App() {
-  return (
-    <ChatComponent
-      name="Cart"
-      props={{
-        books: [
-          {
-            id: "1",
-            title: "书籍 1",
-            author: "作者 1",
-            cover: "cover1.jpg",
-            price: 29.99,
-            count: 1
-          }
-        ],
-        handleGoBack: () => console.log("返回"),
-        onRemove: (id) => console.log("删除", id)
-      }}
-      fallback={<div>加载中...</div>}
-    />
-  )
-}
 ```
 
 ## Props
