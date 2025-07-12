@@ -88,7 +88,6 @@
   --vp-custom-block-tip-border: #333;
   --vp-custom-block-warning-bg: #111;
   --vp-custom-block-warning-border: #333;
-
   --vp-c-brand-1: oklch(71.7% 0.1648 250.79360374054167)
 }
 
@@ -159,7 +158,8 @@
 
 .dark .VPButton.brand:hover,
 .dark .VPButton.primary:hover {
-  background-color: #f5f5f5;
+  background-color: #e0e0e0;
+  color: #000;
 }
 
 .dark .VPButton.alt {
@@ -169,7 +169,7 @@
 
 .dark .VPButton.alt:hover {
   border-color: #fff;
-  color: #fff;
+  color: #e0e0e0;
 }
 
 .VPNavScreen {
