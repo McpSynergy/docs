@@ -1,48 +1,29 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: MCP Render
-  text: A powerful component rendering system for chat interfaces
-  tagline: Render interactive UI components in traditional web chat interfaces
+  name: "MCP Render"
+  text: "Empower Your AI Chat with Dynamic UI"
+  tagline: Move beyond static text. Generate rich, interactive components in your chat conversations, driven by AI and the Model Context Protocol.
   image:
-    src: /logo.svg
+    src: /mcp-render-icon.svg
     alt: MCP Render
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/
+      link: /guide/introduction
     - theme: alt
       text: View on GitHub
-      link: https://github.com/orgs/McpSynergy/repositories
-
+      link: https://github.com/McpSynergy
 
 features:
-  - title: Dynamic Component Loading
-    details: Load and render components dynamically in chat interfaces with React's lazy and Suspense
-  - title: Server-Side Props Injection
-    details: Inject component props from the server side without client-side requests
-  - title: Type Safety
-    details: Full TypeScript support with comprehensive type checking and validation
-  - title: Build Tool Integration
-    details: Seamless integration with build tools like Vite through plugins
+  - icon: 💡
+    title: Dynamic UI Generation
+    details: Introduce new UI components on the fly through backend logic and AI decisions, without needing to redeploy the frontend application.
+  - icon: ✨
+    title: Rich User Experience
+    details: Replace plain text with interactive components to dramatically improve the intuitiveness of information presentation and user actions.
+  - icon: 🚀
+    title: Enhanced Development Efficiency
+    details: Vite-based plugins provide automated component discovery, type extraction, and schema generation, greatly simplifying the development workflow.
 ---
-
-
-
-## Why MCP Render?
-
-MCP Render enables rendering interactive UI components in traditional web chat interfaces. The key advantage is that component data (props) can be generated and injected from the server side, eliminating the need for client-side requests while maintaining clean behavior and consistent usage patterns.
-
-
-## Key Features
-
-- Dynamic component loading with React
-- Server-side props injection
-- TypeScript support
-- Build tool integration
-- Error boundary handling
-- Loading state management
-
-
