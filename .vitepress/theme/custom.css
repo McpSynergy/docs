@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
 :root {
   /* 浅色主题（灰白色调） */
   --vp-c-bg: #f5f5f5;
@@ -37,7 +39,7 @@
 
   /* 导航栏 */
   --vp-nav-bg-color: rgba(245, 245, 245, 0.8);
-  --vp-nav-screen-bg-color: rgba(245, 245, 245, 0.8);
+  --vp-nav-screen-bg-color: rgba(245, 245, 245, 1);
 
   /* 侧边栏 */
   --vp-sidebar-bg-color: #f5f5f5;
@@ -78,7 +80,7 @@
   --vp-c-border: rgba(255, 255, 255, 0.1);
   --vp-c-divider: rgba(255, 255, 255, 0.1);
   --vp-nav-bg-color: rgba(0, 0, 0, 0.8);
-  --vp-nav-screen-bg-color: rgba(0, 0, 0, 0.8);
+  --vp-nav-screen-bg-color: rgba(0, 0, 0, 1);
   --vp-sidebar-bg-color: #000;
   --vp-custom-block-info-bg: #111;
   --vp-custom-block-info-border: #333;
@@ -168,4 +170,9 @@
 .dark .VPButton.alt:hover {
   border-color: #fff;
   color: #fff;
+}
+
+.VPNavScreen {
+  background-color: var(--vp-nav-screen-bg-color);
+  height: 100vh;
 }
