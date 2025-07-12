@@ -65,7 +65,7 @@ const props = defineProps<UserProfileProps>();
 defineMCPComponent({
   name: "UserProfile",
   description: "显示用户信息的卡片。",
-  // 从 UserProfileProps 中挑选 'user' 属性，将其���息加入 schema
+  // 从 UserProfileProps 中挑选 'user' 属性，将其 props 的信息加入 schema
   pickProps: ["user"],
   // 定义 AI 调用此工具所需的输入参数
   inputSchema: {
@@ -107,7 +107,7 @@ defineMCPComponent({
 import { ref, onMounted } from "vue";
 import { ChatComponent } from "@mcp-synergy/vue";
 
-// 模拟从服��器获取的响应
+// 模拟从服务器获取的响应
 const fakeServerResponse = {
   code: 0,
   data: {

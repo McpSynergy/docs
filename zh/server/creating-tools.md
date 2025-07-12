@@ -1,4 +1,3 @@
-
 # 创建新工具
 
 在 `server` 端添加一个新的工具（即让 AI 能够调用一个新的前端组件）涉及以下步骤。我们将以创建一个新的 `WeatherCard` 组件为例。
@@ -8,8 +7,9 @@
 首先，你必须在 `client` 项目中创建对应的 React/Vue 组件，并使用 JSDoc 注释来标记它。
 
 **`client/src/components/WeatherCard.tsx`**:
+
 ```tsx
-import React from 'react';
+import React from "react";
 
 /**
  * @mcp-comp WeatherCard
@@ -37,7 +37,9 @@ const WeatherCard: React.FC<WeatherCardProps> = ({ weather }) => {
   return (
     <div>
       <h3>{weather.city}</h3>
-      <p>{weather.temperature}°C, {weather.description}</p>
+      <p>
+        {weather.temperature}°C, {weather.description}
+      </p>
     </div>
   );
 };
@@ -91,7 +93,7 @@ export default WeatherCard;
           ],
           _meta: {
             props: {
-              // 这里的 `weather` ���性必须与前端 WeatherCardProps 中的定义匹配
+              // 这里的 `weather` 属性必须与前端 WeatherCardProps 中的定义匹配
               weather: fakeWeatherData,
             },
           },
