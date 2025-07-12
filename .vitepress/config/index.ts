@@ -16,6 +16,9 @@ export default defineConfig({
     'en/:rest*': ':rest*'
   },
 
+  // 设置默认主题为暗色
+  appearance: 'dark',
+
   locales: {
     root: { label: 'English', ...en },
     zh: { label: '简体中文', ...zh }
@@ -24,7 +27,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: `${process.env.NODE_ENV === 'production' ? '/docs/logo.svg' : '/logo.svg'}` }],
     ['link', { rel: 'icon', type: 'image/png', href: `${process.env.NODE_ENV === 'production' ? '/docs/logo.png' : '/logo.png'}` }],
-    ['meta', { name: 'theme-color', content: '#5f67ee' }],
+    ['meta', { name: 'theme-color', content: '#000000' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'en' }],
     ['meta', { property: 'og:title', content: 'MCP Render | A powerful UI rendering solution for AI chat interfaces' }],
