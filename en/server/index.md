@@ -4,7 +4,7 @@ Welcome to the McpSynergy Server. It is a backend service that implements the Mo
 
 Its core mission is to transform users' natural language requests into rendering instructions for rich, interactive UI components on the frontend.
 
-***
+---
 
 ## Core Value
 
@@ -29,4 +29,4 @@ Its core mission is to transform users' natural language requests into rendering
 5.  **Build Component Props**: The result of the tool's logic is formatted into a JSON object that matches the props requirements of the frontend component.
 6.  **Send Render Command**: Finally, the server sends the tool name and the props data back to the client, instructing it to render the specified UI component.
 
-Now, proceed to the [Core Concepts](./concepts.md) to gain a deeper understanding of how it works.
+<!-- Now, proceed to the [Core Concepts](./concepts.md) to gain a deeper understanding of how it works. -->

@@ -4,9 +4,9 @@ This guide will walk you through setting up and running the `server` project and
 
 ## Prerequisites
 
--   Node.js >= 18
--   pnpm (recommended)
--   A valid OpenAI API Key
+- Node.js >= 18
+- pnpm (recommended)
+- A valid OpenAI API Key
 
 ---
 
@@ -50,6 +50,7 @@ pnpm dev:express
 ```
 
 This command will:
+
 1.  First, build the `mcpServers` package.
 2.  Then, start the `express` server in hot-reload mode.
 
@@ -76,4 +77,4 @@ Observe the server's console output and the returned JSON data. If your query tr
 
 If the returned data has a `toolName` other than `null`, congratulations! The server has successfully converted your natural language request into a UI component rendering command.
 
-Next, you can try [Creating Your Own Tools](./creating-tools.md).
+<!-- Next, you can try [Creating Your Own Tools](./creating-tools.md). -->

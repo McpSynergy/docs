@@ -4,9 +4,9 @@
 
 ## 先决条件
 
--   Node.js >= 18
--   pnpm (推荐)
--   一个可用的 OpenAI API 密钥
+- Node.js >= 18
+- pnpm (推荐)
+- 一个可用的 OpenAI API 密钥
 
 ---
 
@@ -50,6 +50,7 @@ pnpm dev:express
 ```
 
 此命令会：
+
 1.  首先构建 `mcpServers` 包。
 2.  然后以热重载模式启动 `express` 服务器。
 
@@ -76,4 +77,4 @@ curl -X POST http://localhost:3000/api/message \
 
 如果返回的数据中 `toolName` 不为 `null`，那么恭喜您，服务器已经成功地将您的自然语言请求转换为了一个 UI 组件渲染指令！
 
-接下来，您可以尝试 [创建您自己的工具](./creating-tools.md)。
+<!-- 接下来，您可以尝试 [创建您自己的工具](./creating-tools.md)。 -->
